@@ -28,11 +28,11 @@ Nginx:
 laravel-products/nginx/conf.d/app.conf
 ```
 
-# Requisitos
+## Requisitos
 
 Necessário a instalação do composer dentro do projeto.
 
-# Get Started
+## Get Started
 
 Após realizar o clone do repositório e iniciar o Docker, acesse a pasta do projeto e execute o seguinte comando:
 
@@ -40,5 +40,5 @@ Após realizar o clone do repositório e iniciar o Docker, acesse a pasta do pro
 $ docker-compose up -d
 ```
 
-Após a iniciação de todos os containers será possível acessar o projeto pelo endereço [](http://localhost/):
+Após a iniciação de todos os containers será possível acessar o projeto pelo endereço [http://localhost/](http://localhost/):
 
