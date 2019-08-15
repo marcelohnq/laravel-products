@@ -40,5 +40,5 @@ Após realizar o clone do repositório e iniciar o Docker, acesse a pasta do pro
 $ docker-compose up -d
 ```
 
-Após a iniciação de todos os containers será possível acessar o projeto pelo endereço [http://localhost/](http://localhost/):
+Após a iniciação de todos os containers será possível acessar o projeto pelo endereço [http://localhost/](http://localhost/).
 
