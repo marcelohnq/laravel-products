@@ -2,14 +2,11 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Create Product') }}</div>
-                
-                </div>
-            </div>
-        </div>
-    </div>
+    <h1 class="display-4">{{ __('product.title_create') }}</h1>
+    <hr class="my-4">
+
+    <form action="{{ route('manager.product.create') }}" method="post" enctype="multipart/form-data">
+        @include('manager.product._form')        
+    </form>
 </div>
 @endsection

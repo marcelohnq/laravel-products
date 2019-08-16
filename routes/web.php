@@ -27,12 +27,11 @@ Route::get('/manager/products', 'Manager\ProductController@index')->name('manage
 
 //Create Product
 Route::get('/manager/product/create', 'Manager\ProductController@create')->name('manager.product.create');
-Route::post('/manager/product/create', 'Manager\ProductController@create')->name('manager.product.create.commit');
+Route::post('/manager/product/create', 'Manager\ProductController@createStore')->name('manager.product.create');
 
 //Edit Product by id
 Route::get('/manager/product/edit/{id}', 'Manager\ProductController@edit')->name('manager.product.edit');
-Route::put('/manager/product/edit/{id}', 'Manager\ProductController@edit')->name('manager.product.edit.commit');
+Route::put('/manager/product/edit/{id}', 'Manager\ProductController@editStore')->name('manager.product.edit');
 
 //Delete Product by id
-Route::get('/manager/product/delete/{id}', 'Manager\ProductController@delete')->name('manager.product.delete');
-Route::delete('/manager/product/delete/{id}', 'Manager\ProductController@delete')->name('manager.product.delete.commit');
+Route::delete('/manager/product/delete/{id}', 'Manager\ProductController@deleteStore')->name('manager.product.delete');

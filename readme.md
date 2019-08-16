@@ -10,9 +10,10 @@ Fornecido Docker Compose com a seguinte configuração:
 
 - Laravel: [5.8.31](https://github.com/laravel/laravel);
 - PostgreSQL: 11.4
-- Webserver Nginx
-- Bootstrap 3
+- Nginx
+- Bootstrap 4
 - Jquery
+- Multilinguagem
 
 Também foram incluídos arquivos para configurar o PHP e o Nginx, que irão ser mapeados para os respectivos containers.
 
